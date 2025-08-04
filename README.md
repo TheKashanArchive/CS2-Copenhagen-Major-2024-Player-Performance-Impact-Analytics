@@ -73,6 +73,10 @@ Percentage formatting for headshot %, K/D, KAST, and other stats
 
 Environment: Built and tested entirely in Power BI Desktop (Edit Mode)
 
+The dashboard features a custom-styled slicer that functions as a search bar, complete with a magnifying glass icon for clarity and ease of use
+
+This refined filter allows users to search and narrow down regions efficiently, enhancing the overall user experience
+
  
 Data Source
 
