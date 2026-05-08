@@ -1,85 +1,78 @@
-CS2 Copenhagen Major 2024 – Player Performance Analytics
+# CS2 Copenhagen Major 2024 — Player Performance Analytics
 
-This Power BI dashboard analyzes player performance during the CS2 Copenhagen Major 2024.
+This Power BI dashboard analyzes player performance during the **CS2 Copenhagen Major 2024**, focusing on kills, assists, clutch situations, utility usage, and objective-based impact.
 
+---
 
+## Dashboard Overview
 
-Dashboard Pages Overview
+The dashboard is divided into four analytical pages:
 
-Page 1: Kill Count Leaderboard
+---
 
-Kill Count Leaderboard – Bar chart ranking top fraggers
+### Page 1: Kill Count Leaderboard
 
-Ace Achievers – Count of players who achieved an Ace
+- Kill Count Leaderboard (Top Fraggers Ranking)
+- Ace Achievers (Players with Aces)
 
-Key Stats (Card Visuals):
+**Key Stats (Card Visuals):**
+- MVP Count  
+- K/D Ratio  
+- Headshot Count  
+- Headshot Percentage  
 
-MVP Count
+---
 
-K/D Ratio
+### Page 2: Clutch & Killstreak Stats
 
-Headshot Count
+- Clutch Wins Breakdown (1v1, 1v2, 1v3, 1v4)
+- Killstreak Analysis (Single, Double, Triple, Quadra kills)
 
-Headshot Percentage
+**Additional Metrics:**
+- Clutch performance indicators  
 
+---
 
+### 🎯 Page 3: Assists & Damage Metrics
 
-Page 2: Clutch & Killstreak Stats
+- Most Assists by Player  
+- Damage Breakdown (Health vs Armor)  
+- Opening Engagements (First kills / deaths)  
+- KAST Breakdown (Kill, Assist, Survive, Traded)
 
-Clutch Stats – Number of 1v1, 1v2, 1v3, and 1v4 wins
+---
 
-Killstreak Stats – Total kills per streak: single, double, triple, quadra
+### Page 4: Objective & Game Impact Metrics
 
-Additional Cards – Key clutch-related metrics
+- Bomb Plants by Player  
+- Bomb Defusals by Player  
+- Clutches Lost Breakdown  
+- Game Score Breakdown  
 
+---
 
+## Technical Notes
 
-Page 3: Assists & Damage Metrics
+**Power BI Features Used:**
+- Card, Bar, Stacked Column, Matrix Visuals  
+- Power Query (Data Cleaning & Transformation)  
+- Percentage Formatting (K/D, KAST, Headshot %)  
+- Custom Slicer Search Bar (Magnifying Glass UI)
 
-Most Assists – Players with highest assist counts
+**Enhancements:**
+- Background image brightness adjusted using Windows Image Editor for readability  
+- Clickable watermark linking to GitHub repository  
 
-Damage Breakdown – Health damage vs Armor damage
+---
 
-Opening Engagement – First kills and first deaths
+## Data Source
 
-KAST Breakdown – Kill, Assist, Survive, Traded stats by player
+- Kaggle Dataset  
+- Background Image: https://csgoskins.gg/updates/copenhagen-2024-stickers  
 
+---
 
+## Environment
 
-Page 4: Objective & Game Point Metrics
-
-Bomb Planted – Total bomb plants by player
-
-Clutches Lost – Breakdown of failed clutch attempts
-
-Bomb Diffused – Most defusals by player
-
-Game Point Breakdown – Final scores
-
-Watermark – Project watermark for authenticity, Note: The watermark at the bottom of the page is clickable and links directly to the original project repository.
-
-
-Technical Notes
-
-Power BI Features Used:
-
-Card, bar, stacked column, and matrix visuals
-
-Power Query for cleaning and transforming data
-
-Windows Image Editor Used to Adjust background image brightness and exposure for better readablity
-
-Percentage formatting for headshot %, K/D, KAST, and other stats
-
-Environment: Built and tested entirely in Power BI Desktop (Edit Mode)
-
-The dashboard features a custom-styled slicer that functions as a search bar, complete with a magnifying glass icon for clarity and ease of use
-
-This refined filter allows users to search and narrow down regions efficiently, enhancing the overall user experience
-
- 
-Data Source
-
-Data fetched from Kaggle.com
-
-Background Image Used - https://csgoskins.gg/updates/copenhagen-2024-stickers
+- Power BI Desktop (Edit Mode)
+- Fully built and tested locally
