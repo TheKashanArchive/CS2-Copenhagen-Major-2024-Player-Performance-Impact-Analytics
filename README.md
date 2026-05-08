@@ -33,7 +33,7 @@ The dashboard is divided into four analytical pages:
 
 ---
 
-### 🎯 Page 3: Assists & Damage Metrics
+### Page 3: Assists & Damage Metrics
 
 - Most Assists by Player  
 - Damage Breakdown (Health vs Armor)  
